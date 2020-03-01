@@ -1,0 +1,34 @@
+theme: jekyll-theme-minimal
+
+
+avatar: 'https://github.com/kennedyCzar/kennedyCzar.github.io/blob/master/Ken%2020181021_174316.jpg'
+title: E. kenneth gitpage
+
+author:
+  name: Ezukwoke kenneth
+
+# Select your active Social Network Links.
+# Uncomment the links you want to show in the footer and add your information to each link.
+# You can reorder the items to define the link order.
+# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+social-network-links:
+  rss: true
+  email: "kennedyczar@gmail.com"
+  github: https://github.com/kennedyCzar
+  
+
+url: "https://kennedyCzar.github.io"
+markdown: kramdown
+highlighter: rouge
+
+description: My Resume
+
+
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
