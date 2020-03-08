@@ -1,2 +1,0 @@
-# kennedyCzar.github.io
-Resume
