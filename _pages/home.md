@@ -40,9 +40,9 @@ permalink: /
   <li> {{ member.education2 | replace: "-","&#8211;"}} </li>
   {% endif %}
   {% if member.number_educ == 3 %}
-  <li> {{ member.education1 | replace: "-","&#8211;"}} </li>
-  <li> {{ member.education2 | replace: "-","&#8211;"}} </li>
-  <li> {{ member.education3 | replace: "-","&#8211;"}} </li>
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
   {% endif %}
   {% if member.number_educ == 4 %}
   <li> {{ member.education1 | replace: "-","&#8211;"}} </li>
