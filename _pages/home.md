@@ -132,7 +132,7 @@ permalink: /
 * Mentoring
     * (Oct. 2020 - 2021) Mentor on AI for Coral Reef Conservation in the Vamizi Island, Mozambique (<a href='https://fecn.unilurio.ac.mz/en/ai-coralreef/' target='_blank'>AI for Coral Reef</a>)
 * Affiliations
-    * Blacks in AI, Masakhane.
+    * <a href='https://limos.fr/' target='_blank'>CNRS UMR-6158 LIMOS</a>, <a href='https://blackinai.github.io' target='_blank'>Blacks in AI</a>, <a href='https://www.masakhane.io/' target='_blank'>Masakhane</a>.
 </div>
 
 
