@@ -102,7 +102,7 @@ permalink: /
 </div>
 
 <div class="jumbotron">
-### Regular and invited talks
+### Regular and Invited talks
 {% bibliography --query @incollection[keywords ^= invited] %}
 {% bibliography --query @incollection[keywords != invited] %}
 </div>
