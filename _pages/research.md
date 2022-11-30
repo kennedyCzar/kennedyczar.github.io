@@ -5,169 +5,287 @@ sitemap: false
 permalink: /research/
 ---
 
-<!-- <style> -->
-<!-- iframe { -->
-<!--   height: 100%; -->
-<!--   width: 175px !important; -->
-<!--   display: inline; -->
-<!--   vertical-align:middle; -->
-<!--   margin:0px !important; -->
-<!--   padding:0px !important; -->
-<!--   width: 175px; -->
-<!--   display: inline; -->
-<!--   vertical-align:middle; -->
-<!--   border: 1px solid red; -->
-<!-- } -->
-<!-- .col-md-3 { -->
-<!--   margin:0px !important; -->
-<!--   padding:0px !important; -->
-<!--   overflow:hidden; -->
-<!--   display: table-cell; -->
-<!--   text-align:center; -->
-<!--   background: white; -->
-<!--   width: 175px; -->
-<!--   border: 0px solid transparent; -->
-<!--   border-radius:20px; -->
-<!-- } -->
-<!-- </style> -->
 
 <style>
 img{
   border-radius: 10px;
 }
+iframe {
+  width: 175px;
+  display: inline;
+  vertical-align:middle;
+  <!-- margin-bottom:5px; -->
+  <!-- margin-left:5px; -->
+  <!-- border: 1px solid red; -->
+}
 .col-md-3 {
+  margin:0;
+  padding:0;
   margin-top:10px;
   margin-bottom:10px;
-  padding:0px;
   display:block;
   overflow:hidden;
   text-align:center;
   display: table-cell;
-  background: white;
-  border-radius: 20px;
   height: auto;
+  float: none;
+  background:white;
+  border-radius:20px;
   <!-- border: 1px solid black; -->
 }
-iframe {
-  margin:0;
-  padding:0;
-  width: 175px;
-  display: inline;
-  vertical-align: middle;
+tr:nth-child(even) {
+  background-color: #404040!important;
 }
+.btn-success {
+  font-family: Raleway-SemiBold;
+  font-size: 7px;
+  color: rgba(103, 192, 103, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(103, 192, 103, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+.btn-primary {
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 1px;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+.btn-success:hover {
+  color: #FFF;
+  background: rgb(103, 192, 103, 0.75);
+  border: 1px solid rgb(103, 192, 103, 0.75);
+}
+
+.btn-danger {
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 1px;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-danger:hover {
+  color: #FFF;
+  background: rgba(217, 83, 78, 0.75);
+  border: 2px rgba(217, 83, 78, 0.75);
+}
+
 </style>
 
-  <!-- border: 5px solid red; -->
-  <!-- margin-bottom:5px; -->
-  <!-- margin-left:5px; -->
-  <!-- float: none; -->
-
 ## Research
-
+<!-- 
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
- <h4>Cavitation as a gateway to better therapies</h4>
-Cavitating bubbles can ablate cancer cells, fragment tissues, and deliver drugs, among other functions.
-I create high-fidelity computational methods to simulate these dynamics.
-Examples are:
-* Euler--Euler and Euler--Lagrange <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-19.pdf" target="_blank">sub-grid bubble cloud models</a>
-* Accelerated models using a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">statistical paradigm and neural networks</a>
-* Implementation in my open-source solver <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-19.pdf" target="_blank">MFC</a>
+<h4><b>QBMMlib: Moment Methods for Fully-coupled Flows</b></h4>
+<a href="https://github.com/sbryngelson/QBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: QBMMLIB</button></a>
+<a href="https://github.com/sbryngelson/PyQBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: PyQBMMLIB</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
-These enable realistic simulation of the bubble populations that nucleate during treatment.
-This has impacted application-specific treatments, including:
-* Improved _burst-wave lithotripsy administration_ in human trials 
-* Understanding of <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JCP-20.pdf" target="_blank">bubble-collapse-rebound</a> dynamics
-* Cavitation-induced <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JFM-19.pdf" target="_blank">erosion potential</a> for rough materials
-</div>
-<div class="col-md-3 col-sm-12" style="background-color:transparent;">
-  <iframe src="https://player.vimeo.com/video/455888052?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="182px" frameborder="0" allow="autoplay"></iframe>
-</div>
-</div>
-</div>
+<b>Author:</b>
+<i>S. H. Bryngelson</i>
 
-  <!-- <iframe src="https://player.vimeo.com/video/455887852?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="142px" frameborder="0" allow="autoplay"></iframe> -->
+<b>QBMMlib</b> is an <a href="https://github.com/sbryngelson/QBMMlib" target="_blank">open source Mathematica package</a> for solving populating balance equations with quadrature-based moment methods (QBMMs).
+QBMMs are used for fully-coupled disperse flow and combustion problems.
+However, formulating and closing the corresponding governing equations can be complex.
+QBMMlib makes using these methods simple and accessible:
+- Symbolic and automatic formulation of moment transport equations for a population balance equation and dynamical system
+- Moment inversion trades moment sets for quadrature points
+    - Algorithms: QMOM, HyQMOM, CQMOM, and more
+- Quadratures closes the moment transport and governing flow equations 
+- Embedded Runge--Kutta algorithms for _realizable_ time integration
 
+The algorithm initialization and solution can span _just 13 lines of code_.
+Example notebooks demonstrate QBMMlib on bubble dynamics problems.
 
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
-<h4>Learning from animals: Humpback whales</h4>
-Perspective on bubble utilization can come from a surprising source: **animals**.
-<a href="https://www.youtube.com/watch?v=Q8iDcLTD9wQ" target="_blank">Humpback whales hunt</a> using bubbly regions (called bubble nets) and loud vocalizations.
-Specifically, they
-* Release air from their blowholes while swimming, spiraling downwards
-* Surround their prey with a wall of bubbles
-* Vocalize from the exterior, trapping small fish in loud sound (~190dB!)
-* Swim up and through the interior, lunge feeding on the fish
+<b><a href="https://github.com/sbryngelson/PyQBMMlib" target="_blank">PyQBMMlib:</a></b> With Esteban Cisneros I developed a Python version of QBMMlib that leverages JIT compiling for significantly improved performance.
 
-While fascinating, the acoustic mechanisms enabling this behavior are not understood.
-My ensemble-averaged bubbly flow model simulates the relevant acoustic phenomena, <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JASA-20.pdf" target="_blank">advancing our interpretation of this behavior</a>.
-Similar outcomes are desirable for sensitive, implanted biomedical devices.
-</div>
-<div class="col-md-3 col-sm-12" >
-  <iframe src="https://player.vimeo.com/video/455688521?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="192px" frameborder="0" allow="autoplay"></iframe>
-</div>
-</div>
-</div>
- 
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
- <h4>Therapy design via adjoint-based optimization</h4>
-Designing medical therapies requires efficient optimization algorithms. 
-Current methods fail to account for the _material interfaces_ or _shock waves_ that occur during treatments like lithotripsy and histotripsy.
-I created an adjoint-based technique for navigating these complications and computes the gradient-based information required for such <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-xpacc18.pdf" target="_blank">optimization and sensitivity analysis</a>.
-Coupling with <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">PlasCom2</a> provides a full optimization framework for medical therapies and devices.
-</div>
-<div class="col-md-3 col-sm-12" style="background-color:transparent" >
-  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/lithotripsy.jpg" width="175px"/>
-</div>
-</div>
-</div>
-
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
- <h4>An _in silico_ microfluidics and microcirculation</h4>
-I create simulation methods for the cellular flows that occur _in vivo_ and in biomicrofluidic devices.
-These tools are composed of physical models for the cells and particles and numerical methods to solve for their motion.
-These are implemented in <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">RBC3D</a>, my state-of-the-art flow solver that resolves <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-16.pdf" target="_blank">all particle-scale interactions</a>.
-Coupling RBC3D with <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">stability and optimization tools</a> I discovered:
-* The <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-RA-16.pdf" target="_blank">buckling mechanism</a>  mediating the flow of sickle cells.
-* The <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">chaotic behavior</a> of microcirculatory flows, and so computational methods cannot predict cell location (or motion) at long times.
-* A <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">data-driven low-order model</a> for the flow statistics.
 </div>
 <div class="col-md-3 col-sm-12">
-  <iframe src="https://player.vimeo.com/video/455887647?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay"></iframe>
+  <iframe src="https://player.vimeo.com/video/456290405?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="132px" frameborder="0" allow="autoplay"></iframe>
 </div>
 </div>
 </div>
-
-  <!-- <iframe src="https://player.vimeo.com/video/455887646?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay"></iframe> -->
-<!-- <div class="embed-container embed-container-spleen"> -->
-<!-- </div> -->
-
-<!-- <div class="embed-container embed-container-leuk"> -->
-<!--   <iframe src="https://player.vimeo.com/video/455887647?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay"></iframe> -->
-<!-- </div> -->
 
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
- <h4>Targeted microcapsules for drug delivery</h4>
-Capsules can deliver drug payloads via the microcirculation and pulmonary system.
-The capsules dynamics are an important design condition in this application, which are particularly sensitive to the capsule membrane itself.
-I crafted kinematic stability analyses of this coupled dynamical system, including:
-* The first <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JFM-18.pdf" target="_blank">Floquet analysis</a> of such a system, which classifies the stability without the ambiguity of empirical perturbations or experiments
-* <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-EJM-19.pdf" target="_blank">Non-modal extensions</a> of the stability analysis, enabling the prediction of rheometric flows and characterization of the capsule's mechanical properties
+<a href="https://mfc-caltech.github.io" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" width="50%" />
+</a>
+<h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
+<a href="https://mfc-caltech.github.io" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+<a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-19.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+
+<b>Authors:</b>
+<i>S. H. Bryngelson, V. Coralic, K. Schmidmayer, J. S. Spratt, M. Rodriguez, B. Stevens, A. Charalampopoulos, S. Cao, J. Meng, K. Maeda</i>
+
+MFC is an open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
+Its efficient simulation algorithm is capable of solving flows like droplet atomization, bubble cavitation, and their interactions with strong shocks.
+The simulation method consists of:
+- 5- and 6-equation diffuse-interface models
+- High-order-accurate WENO interface-capturing methods
+- HLL-type Riemann solvers
+- Sub-grid bubble models
+- TVD time-integration schemes 
+
+MFC is actively developed and gaining capabilities for QMOM-based solutions to sub-grid flows and neural-network enhanced interface capturing.
 </div>
-<div class="col-md-3 col-sm-12" >
-  <iframe src="https://player.vimeo.com/video/455887720?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="156px" frameborder="0" allow="autoplay"></iframe>
+<div class="col-md-3 col-sm-12">
+  <iframe src="https://player.vimeo.com/video/455887952?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
+  <iframe src="https://player.vimeo.com/video/455888264?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
 </div>
 </div>
 </div>
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+<a href="https://code-mphi.github.io/ECOGEN/" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/ecogen.png" width="60%" />
+</a>
+<h4><b>Multiphase and Capillary Flow Solver</b></h4>
+<a href="https://code-mphi.github.io/ECOGEN/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+<a href="https://github.com/code-mphi/ECOGEN" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
+<a href="http://dx.doi.org/10.1016/j.cpc.2019.107093" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+
+<b>Authors:</b>
+<i>K. Schmidmayer, E. Daniel, S. Le Martelot, S. H. Bryngelson, F. Petitpas</i>
+
+ECOGEN is an open source fluid flow simulation tool.
+Interface- and shock-capturing methods handle single-phase gas dynamics and multi-phase and multi-physics flows.
+Unstructured grids and adaptive mesh refinement (AMR) enable resolution of otherwise inaccessible spatiotemporal scales.
+Multiphase ECOGEN simulations regularly scale up to thousands of cores.
+The code base is object-oriented and modular, assisting future development.
+</div>
+<div class="col-md-3 col-sm-12">
+  <iframe src="https://player.vimeo.com/video/456283026?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="180px" frameborder="0" allow="autoplay"></iframe>
+  <iframe src="https://player.vimeo.com/video/455889269?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="70px" frameborder="0" allow="autoplay"></iframe>
+</div>
+</div>
+</div>
+
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+<a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/xpacc.png" width="50%" />
+</a>
+<h4><b>PlasCom2: Multi-physics Turbulent Flows</b></h4>
+<a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+
+<b>Authors:</b>
+<i>M. Campbell, E. Cisneros, S. H. Bryngelson, D. Buchta, M. Anderson, M. Diener, M. Smith</i>
+
+PlasCom2 is a variable-order, single- and multi-block (overset), compressible Navier--Stokes solver. 
+It supports curvilinear domains discretized by multiple, overlapping block-structured grids.
+Hybrid MPI+X and OpenMP handle parallel communication and GPGPU offloading.
+PlasCom2 utilizes home-grown libraries to manage these interactions:
+* **Pick-Pocket**: Dynamic discovery of data movement optimizes data motion
+* **Hydra**: Offloads OpenMP threads to GPGPUs, manages data movement
+* **TanGram**: Manages architecture-neutral computational kernels 
+* **Leap**: Multi-rate time integration to mitigate grid/timestep limitations
+
+PlasCom2 routinely scales to all available processing units on the largest machines in the United States, including modern Sierra-like architectures.
+</div>
+<div class="col-md-3 col-sm-12">
+  <div style="background-color:black;">
+  <iframe src="https://player.vimeo.com/video/455887825?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="140px" frameborder="0" allow="autoplay"></iframe>
+  <iframe src="https://player.vimeo.com/video/456436051?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="130px" frameborder="0" allow="autoplay"></iframe>
+  </div>
+</div>
+</div>
+</div>
+
+-->
+
+
+
+ 
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/gcvae_2.png" width="70%" height="170px" />
+<h4><b>GCVAE: Generalized-Controllable Variational Autoencoder</b></h4>
+<a href="https://github.com/kennedyCzar/GCVAE" target="_blank"><button class="btn btn-primary btn-sm">GIT: GCVAE</button></a>
+<a href="https://arxiv.org/abs/2206.04225" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<a href = "https://github.com/kennedyCzar/GCVAE/blob/main/gcvae_example.ipynb" target = "_blank"><img alt = "Open in Colab" src = "https://colab.research.google.com/assets/colab-badge.svg"></a>
+
+<b>Authors:</b>
+<i>Kenneth Ezukwoke, Anis Hoayek, Mireille Batton-Hubert, Xavier Boucher</i>
+
+GCVAE is a generalized version of VAE with adaptive weights.
+It solves the problem of disentanglement and reconstuction trade-off by replacing fixed hyperparameters with trainable Lagrangian hyperparameters:
+* Maximizing mutual information $$I_p(x, z)$$ during data reconstruction ($$x$$: data; $$z$$: latent)
+* Data reconstruction is done $$w.r.t$$ inference constraints ($$e.g.$$, $$Kullback–Leibler$$ $$divergence$$)
+* Optimization framework designed to introduce controllable and adaptive Lagrangian hyperparameters
+* Proportional-Integral-Derivative (PID) controller serves for automatic controlling of hyperparameters ($$\alpha, \beta, \gamma$$)
+
+The controllable hyperparameters ensures simultaneously learning a well disentangled representation with high reconstruction quality and minimal information loss during compression.
+</div>
+<div class="col-md-3 col-sm-12">
+  <img src="{{site.url}}{{site.baseurl}}/images/software/gcvae.png" width="175px"/>
+</div>
+</div>
+</div>
+
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/fdr_fa.png" width="80%" height="170px" />
+<h4><b>Leveraging Pre-trained Models for Failure Analysis Triplets Generation</b></h4>
+<a href="https://github.com/AI-for-Fault-Analysis-FA4-0/Leveraging-Pre-trained-Models-for-Failure-Analysis-Triplets-Generation" target="_blank"><button class="btn btn-primary btn-sm">GIT: LPLMFATG</button></a>
+<a href="https://arxiv.org/abs/2210.17497" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+
+
+<b>Authors:</b>
+<i>Kenneth Ezukwoke, Anis Hoayek, Mireille Batton-Hubert, Xavier Boucher, Pascal Gounet, Jerome Adrian</i>
+
+The research focuses on leveraging pretrained language models (such as transformers) for failure analysis (diagnosis) in semiconductor industry.
+* Generative Pretrained Transformers ($$GPT2$$) is best for the task of Failure Analysis Triplet Generation (FATG)
+* Sequential structured data is challenging for Encoder-Decoder Transformers especialy for data-to-text problems
+* BLEU, ROUGE and METEOR scores do not correlate with human evaluation when scoring data-to-text problems
+* We introduce Levenshstein Sequential Evaluation ($$LESE-N$$) metric, which correlates with human-evaluation
+
+Significantly good results fine-tuning pretrained GPT2 for the downstream task of FATG. Next, we introduce the GCVAE variational loss for fine-tuning .
+</div>
+<div class="col-md-3 col-sm-12">
+  <img src="{{site.url}}{{site.baseurl}}/images/software/lese.png" width="205px" height="200px"/>
+</div>
+</div>
+</div>
+
+
+## Selected projects
+
+<div class="jumbotron">
+
+
+
+<div class="datatable-begin" width="100%"></div>
+
+| Project      | Description | Git address    |
+| :---        |    :----:   |          ---: |
+| Advance Machine Learning- Kernel Methods      | Implementation of key advance ML algorithms (both classical and kernel versions)       | <a href="https://github.com/kennedyCzar/ADVANCE-MACHINE-LEARNING-KERNEL-METHOD" target="_blank"><button type="button" class="btn btn-success" >Github</button>   |
+| Transfer Learning and Optimal Transport   | Subspace Alignment & Sinkhorn's Algorithm        |  <a href="https://github.com/kennedyCzar/TRANSFER-LEARNING-AND-OPTIMAL-TRANSPORT" target="_blank"><button type="button" class="btn btn-success" >Github</button>      |
+| Social Mining Recommendation System   | Content based Recommedation system based on Graph mining        | <a href="https://github.com/kennedyCzar/Social-Mining-Recommendation-System" target="_blank"><button type="button" class="btn btn-success" >Github</button>      |
+| Active and Online Learning Machine Learning Algorithms   | Online learning and Active learning ML algorithms        | <a href="https://github.com/kennedyCzar/Active-learning-and-online-learning-machine-learning-algorithms." target="_blank"><button type="button" class="btn btn-success" >Github</button>      |
+| FORECASTING 1.0   | An intelligent model for time-series prediction and forecasting        | <a href="https://github.com/fibai/FORECASTING-1.0" target="_blank"><button type="button" class="btn btn-success" >Github</button>      |
+| Unsupervised Anomaly Detection   | Unsupervised machine learning methods for novel anomaly detection        | <a href="https://github.com/PyAnomaly/UNSUPERVISED-ANOMALY-DETECTION" target="_blank"><button type="button" class="btn btn-success" >Github</button>      |
+| NLP Pproject Book Insights with Plotly   | Machine learning for Natural Language Processing (NLP)        | <a href="https://github.com/kennedyCzar/NLP-PROJECT-BOOK-INSIGHTS-WITH-PLOTLY" target="_blank"><button type="button" class="btn btn-success" >Github</button>      |
+| Stock Return Prediction using KNN-SVM-GAUSSIAN-ADABOOST   | Forecast stock prices using classical machine learning techniques        | <a href="https://github.com/kennedyCzar/STOCK-RETURN-PREDICTION-USING-KNN-SVM-GUASSIAN-PROCESS-ADABOOST-TREE-REGRESSION-AND-QDA" target="_blank"><button type="button" class="btn btn-success" >Github</button>      |
+
+<div class="datatable-end"></div>
+</div>
+
+
 
