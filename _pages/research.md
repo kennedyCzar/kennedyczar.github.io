@@ -256,7 +256,7 @@ The research focuses on leveraging pretrained language models (such as transform
 * BLEU, ROUGE and METEOR scores do not correlate with human evaluation when scoring data-to-text problems
 * We introduce Levenshstein Sequential Evaluation ($$LESE-N$$) metric, which correlates with human-evaluation
 
-Significantly good results fine-tuning pretrained GPT2 for the downstream task of FATG. Next, we introduce the GCVAE variational loss for fine-tuning .
+Significantly improved results fine-tuning pretrained GPT2 for the downstream task of FATG. Next, we introduce the GCVAE variational loss for fine-tuning .
 </div>
 <div class="col-md-3 col-sm-12">
   <img src="{{site.url}}{{site.baseurl}}/images/software/lese.png" width="205px" height="200px"/>
