@@ -273,7 +273,7 @@ Significantly good results fine-tuning pretrained GPT2 for the downstream task o
 
 <div class="datatable-begin" width="100%"></div>
 
-| Project      | Description | Git address    |
+| Project      | Description | Git    |
 | :---        |    :----:   |          ---: |
 | $$\texttt{Advance Machine Learning- Kernel Methods}$$      | Implementation of key advance ML algorithms (both classical and kernel versions)       | <a href="https://github.com/kennedyCzar/ADVANCE-MACHINE-LEARNING-KERNEL-METHOD" target="_blank"><button type="button" class="btn btn-success" >Github</button>   |
 | $$\texttt{Transfer Learning and Optimal Transport}$$   | Subspace Alignment & Sinkhorn's Algorithm        |  <a href="https://github.com/kennedyCzar/TRANSFER-LEARNING-AND-OPTIMAL-TRANSPORT" target="_blank"><button type="button" class="btn btn-success" >Github</button>      |
