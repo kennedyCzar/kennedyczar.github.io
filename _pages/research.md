@@ -268,7 +268,7 @@ Significantly improved results fine-tuning pretrained GPT2 for the downstream ta
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/oanda.jpg" width="80%" height="100px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/oanda.jpg" width="80%" height="120px" />
 <h4><b>Automated Signal Generator</b></h4>
 <a href="https://github.com/fibai/AUTOMATED-SIGNAL-GENERATOR" target="_blank"><button class="btn btn-primary btn-sm">GIT: ASG</button></a>
 <!--<a href="https://arxiv.org/abs/2210.17497" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> -->
