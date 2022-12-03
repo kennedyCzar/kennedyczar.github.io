@@ -268,7 +268,7 @@ Significantly improved results fine-tuning pretrained GPT2 for the downstream ta
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/oanda.jpg" width="80%" height="120px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/oanda.jpg" width="80%" height="110px" />
 <h4><b>Automated Signal Generator</b></h4>
 <a href="https://github.com/fibai/AUTOMATED-SIGNAL-GENERATOR" target="_blank"><button class="btn btn-primary btn-sm">GIT: ASG</button></a>
 <!--<a href="https://arxiv.org/abs/2210.17497" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> -->
@@ -277,7 +277,7 @@ Significantly improved results fine-tuning pretrained GPT2 for the downstream ta
 <b>Author:</b>
 <i>Kenneth Ezukwoke</i>
 
-A financial research software for automated trading signal generation and algorthmic trading using <a href = '' target="_blank">OANDA v20 REST API</a> as data source.
+A financial research software for automated trading signal generation and algorthmic trading using <a href = 'https://developer.oanda.com/rest-live-v20/introduction/' target="_blank">OANDA v20 REST API</a> as data source.
 * Data pool request (including currencies, metals, dervatives and commodities) on difference timeframes (e.g., H30, H6, H8, H12, W) based on OANDA v20 REST API
 * Built on well known trend and price-based technical indicators (e.g., SMA, EMA, MACD, HMA, Stoch-Oscilator, CCI, SuperTrend) for signal generation
 * Interactive Graphical User Interface (GUI) for seemless strategy control
