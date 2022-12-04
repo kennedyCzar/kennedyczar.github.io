@@ -293,9 +293,6 @@ A research tool for learning and experimental purpose only. Software is subject 
 ## Selected projects
 
 <div class="jumbotron">
-
-
-
 <div class="datatable-begin" width="100%"></div>
 
 | Project      | Description | Git    |
