@@ -243,7 +243,7 @@ The controllable hyperparameters ensures simultaneously learning a well disentan
 <div class="col-md-9 col-sm-12">
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/fdr_fa.png" width="80%" height="170px" />
 <h4><b>Leveraging Pre-trained Models for Failure Analysis Triplets Generation</b></h4>
-<a href="https://github.com/AI-for-Fault-Analysis-FA4-0/Leveraging-Pre-trained-Models-for-Failure-Analysis-Triplets-Generation" target="_blank"><button class="btn btn-primary btn-sm">GIT: LPLMFATG</button></a>
+<a href="https://github.com/AI-for-Fault-Analysis-FA4-0/Leveraging-Pre-trained-Models-for-Failure-Analysis-Triplets-Generation" target="_blank"><button class="btn btn-primary btn-sm">GIT: LPMFATG</button></a>
 <a href="https://arxiv.org/abs/2210.17497" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 
@@ -253,10 +253,10 @@ The controllable hyperparameters ensures simultaneously learning a well disentan
 The research focuses on leveraging pretrained language models (such as transformers) for failure analysis (diagnosis) in semiconductor industry.
 * Generative Pretrained Transformers ($$GPT2$$) is best for the task of Failure Analysis Triplet Generation (FATG)
 * Sequential structured data is challenging for Encoder-Decoder Transformers especialy for data-to-text problems
-* BLEU, ROUGE and METEOR scores do not correlate with human evaluation when scoring data-to-text problems
+* BLEU, ROUGE and METEOR scores do not correlate with human evaluation when scoring sequential data-to-text problems
 * We introduce Levenshstein Sequential Evaluation ($$LESE-N$$) metric, which correlates with human-evaluation
 
-Significantly improved results fine-tuning pretrained GPT2 for the downstream task of FATG. Next, we introduce the GCVAE variational loss for fine-tuning .
+Significantly improved results fine-tuning pretrained GPT2 (a decoder only transformer) for the downstream task of FATG. Next, we introduce the GCVAE variational loss for fine-tuning .
 </div>
 <div class="col-md-3 col-sm-12">
   <img src="{{site.url}}{{site.baseurl}}/images/software/lese.png" width="205px" height="200px"/>
@@ -277,8 +277,8 @@ Significantly improved results fine-tuning pretrained GPT2 for the downstream ta
 <b>Author:</b>
 <i>Kenneth Ezukwoke</i>
 
-A financial research software for automated trading signal generation and algorthmic trading using <a href = 'https://developer.oanda.com/rest-live-v20/introduction/' target="_blank">OANDA v20 REST API</a> as data source.
-* Data pool request (including currencies, metals, dervatives and commodities) on difference timeframes (e.g., H30, H6, H8, H12, W) based on OANDA v20 REST API
+A financial research software with the capacity to automatically generate signals for algorthmic trading using <a href = 'https://developer.oanda.com/rest-live-v20/introduction/' target="_blank">OANDA v20 REST API</a> as data source.
+* Data pool request for currencies, metals, dervatives and commodities on different timeframes (e.g., H30, H6, H8, H12, W) based on OANDA v20 REST API
 * Built on well known trend and price-based technical indicators (e.g., SMA, EMA, MACD, HMA, Stoch-Oscilator, CCI, SuperTrend) for signal generation
 * Interactive Graphical User Interface (GUI) for seemless strategy control
 
