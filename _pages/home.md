@@ -19,7 +19,7 @@ permalink: /
 <div class="jumbotron">
 <div class="row">
 <div class="col-sm-4">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="100%" style="max-width:250px"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="100%" style="max-width:250px; border-radius: 100% / 250px; -moz-border-radius: 100% / 250px; -webkit-border-radius: 100% / 250px;"/>
 </div>
 <div class="col-sm-8 col-xs-12">
   <h3>{{ member.name }}</h3>
