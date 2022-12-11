@@ -115,7 +115,8 @@ permalink: /
     * Introduction to Natural Language Processing (NLP) -- Jan, 2022
 
 * Teaching Assistant, École des Mines de Saint-Étienne (EMSE) 
-    * Deep Learning practical class --2021
+    * Deep Learning (introducton to deep learning based using Tensorflow Library) practical class --2021
+    * Numerical Methods (construction and testing of the Finite Difference solver) practcal class --2021, 2022.
 </div>
 
 
