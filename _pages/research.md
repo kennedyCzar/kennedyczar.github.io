@@ -76,6 +76,21 @@ tr:nth-child(even) {
   border: 2px rgba(217, 83, 78, 0.75);
 }
 
+.btn-success{
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 1px;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-success:hover {
+  color: #FFF;
+  background: rgba(217, 83, 78, 0.75);
+  border: 2px rgba(217, 83, 78, 0.75);
+}
+
 </style>
 
 ## Research
@@ -215,6 +230,7 @@ PlasCom2 routinely scales to all available processing units on the largest machi
 <div class="col-md-9 col-sm-12">
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/gcvae_2.png" width="70%" height="170px" />
 <h4><b>GCVAE: Generalized-Controllable Variational Autoencoder</b></h4>
+<a href="https:papers/BELIEF2022_POSTER.pdf" target="_blank"><button class="btn btn-success btn-sm">POSTER</button></a>
 <a href="https://github.com/kennedyCzar/GCVAE" target="_blank"><button class="btn btn-primary btn-sm">GIT: GCVAE</button></a>
 <a href="https://arxiv.org/abs/2206.04225" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 <a href = "https://colab.research.google.com/drive/1QlbAte_TOH5-WXo8NUCuMOiO7OFO43lW?usp=sharing" target = "_blank"><img alt = "Open in Colab" src = "https://colab.research.google.com/assets/colab-badge.svg"></a>
@@ -256,7 +272,7 @@ The research focuses on leveraging pretrained language models (such as transform
 * BLEU, ROUGE and METEOR scores do not correlate with human evaluation when scoring sequential data-to-text problems
 * We introduce Levenshstein Sequential Evaluation ($$LESE-N$$) metric, which correlates with human-evaluation
 
-Significantly improved results fine-tuning pretrained GPT2 (a decoder only transformer) for the downstream task of FATG. Next, we introduce the GCVAE variational loss for fine-tuning .
+Significantly improved results fine-tuning pretrained GPT2 (a decoder only transformer) for the downstream task of FATG. Next, we introduce the GCVAE variational loss for fine-tuning.
 </div>
 <div class="col-md-3 col-sm-12">
   <img src="{{site.url}}{{site.baseurl}}/images/software/lese.png" width="205px" height="200px"/>
