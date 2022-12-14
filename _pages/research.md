@@ -297,7 +297,7 @@ A financial research software with the capacity to automatically generate signal
 * Built on well known trend and price-based technical indicators (e.g., SMA, EMA, MACD, HMA, Stoch-Oscilator, CCI, SuperTrend) for signal generation
 * Interactive Graphical User Interface (GUI) for seemless strategy control
 
-A research tool for learning and experimental purpose only. Software is subject to users discretion and open to financial risk upon usage.
+Disclaimer: A research tool for learning and experimental purpose only. Software is subject to users discretion and open to financial risk upon usage.
 </div>
 <div class="col-md-3 col-sm-12">
   <img src="{{site.url}}{{site.baseurl}}/images/software/AI-signal.gif" width="205px" height="200px"/>
