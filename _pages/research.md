@@ -229,7 +229,7 @@ It solves the problem of disentanglement and reconstuction trade-off by replacin
 * Optimization framework designed to introduce controllable and adaptive Lagrangian hyperparameters
 * Proportional-Integral-Derivative (PID) controller serves for automatic controlling of hyperparameters ($$\alpha, \beta, \gamma$$)
 
-The controllable hyperparameters ensures simultaneously learning a well disentangled representation with high reconstruction quality and minimal information loss during compression.
+The controllable hyperparameters ensures simultaneously learning a well disentangled representation with high reconstruction quality and minimal information loss during the bottleneck-compression.
 </div>
 <div class="col-md-3 col-sm-12">
   <img src="{{site.url}}{{site.baseurl}}/images/software/gcvae.png" width="175px"/>
