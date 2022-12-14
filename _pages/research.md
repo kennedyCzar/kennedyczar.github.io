@@ -216,7 +216,7 @@ PlasCom2 routinely scales to all available processing units on the largest machi
 <div class="col-md-9 col-sm-12">
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/gcvae_2.png" width="70%" height="170px" />
 <h4><b>GCVAE: Generalized-Controllable Variational Autoencoder</b></h4>
-<a href="papers/BELIEF2022_POSTER.pdf" target="_blank"><button class="btn btn-success btn-sm">POSTER</button></a>
+<a href="{{site.url}}{{site.baseurl}}/papers/BELIEF2022_POSTER.pdf" target="_blank"><button class="btn btn-success btn-sm">POSTER</button></a>
 <a href="https://github.com/kennedyCzar/GCVAE" target="_blank"><button class="btn btn-primary btn-sm">GIT: GCVAE</button></a>
 <a href="https://arxiv.org/abs/2206.04225" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 <a href = "https://colab.research.google.com/drive/1QlbAte_TOH5-WXo8NUCuMOiO7OFO43lW?usp=sharing" target = "_blank"><img alt = "Open in Colab" src = "https://colab.research.google.com/assets/colab-badge.svg"></a>
