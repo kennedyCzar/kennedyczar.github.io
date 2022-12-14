@@ -87,8 +87,8 @@ tr:nth-child(even) {
 
 .btn-secondary:hover {
   color: #FFF;
-  background: rgba(217, 83, 78, 0.75);
-  border: 2px rgba(217, 83, 78, 0.75);
+  background: grey;
+  border: 2px grey;
 }
 </style>
 
