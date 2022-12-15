@@ -284,7 +284,7 @@ Significantly improved results fine-tuning pretrained GPT2 (a decoder only trans
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/oanda.jpg" width="80%" height="110px" />
-<h4><b>FORECASTING-1.0 (a.k.a Automated Signal Generator)</b></h4>
+<h4><b>FORECASTING-1.0 / Automated Signal Generator</b></h4>
 <a href="https://github.com/kennedyCzar/FORECASTING-1.0" target="_blank"><button class="btn btn-primary btn-sm">GIT: FORECASTING-1.0</button></a>
 <a href="https://github.com/fibai/AUTOMATED-SIGNAL-GENERATOR" target="_blank"><button class="btn btn-primary btn-sm">GIT: ASG</button></a>
 <!--<a href="https://arxiv.org/abs/2210.17497" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> -->
