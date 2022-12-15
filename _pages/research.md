@@ -284,7 +284,7 @@ Significantly improved results fine-tuning pretrained GPT2 (a decoder only trans
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/oanda.jpg" width="80%" height="110px" />
-<h4><b>Forecasting 1.0 ($$a.k.a$$ Automated Signal Generator)</b></h4>
+<h4><b>FORECASTING-1.0 (a.k.a Automated Signal Generator)</b></h4>
 <a href="https://github.com/kennedyCzar/FORECASTING-1.0" target="_blank"><button class="btn btn-primary btn-sm">GIT: FORECASTING-1.0</button></a>
 <a href="https://github.com/fibai/AUTOMATED-SIGNAL-GENERATOR" target="_blank"><button class="btn btn-primary btn-sm">GIT: ASG</button></a>
 <!--<a href="https://arxiv.org/abs/2210.17497" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> -->
@@ -298,7 +298,7 @@ A financial research software with the capacity to automatically generate signal
 * Built on well known trend and price-based technical indicators (e.g., SMA, EMA, MACD, HMA, Stoch-Oscilator, CCI, SuperTrend) for signal generation
 * Interactive Graphical User Interface (GUI) for seemless strategy control
 
-Disclaimer: ASG is a research tool for educational and experimental purpose only. Software is subject to users discretion and open to financial risk upon usage.
+Disclaimer: FORECASTING-1.0 and ASG are research tools for educational and experimental purpose only. Software is subject to users discretion and open to financial risk upon usage.
 </div>
 <div class="col-md-3 col-sm-12">
   <img src="{{site.url}}{{site.baseurl}}/images/software/AI-signal.gif" width="205px" height="200px"/>
