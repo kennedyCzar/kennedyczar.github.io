@@ -294,7 +294,7 @@ Significantly improved results fine-tuning pretrained GPT2 (a decoder only trans
 <i>Kenneth Ezukwoke</i>
 
 A financial research software with the capacity to automatically generate signals for algorithmic trading using <a href = 'https://developer.oanda.com/rest-live-v20/introduction/' target="_blank">OANDA v20 REST API</a> as data source.
-* Data pool request for currencies, metals, derivatives and commodities on different timeframes (e.g., H30, H6, H8, H12, W) based on OANDA v20 REST API
+* Data pool request for currencies, metals, derivatives and commodities for different timeframes (e.g., H30, H6, H8, H12, W) based on OANDA v20 REST API
 * Built on well known trend and price-based technical indicators (e.g., SMA, EMA, MACD, HMA, Stoch-Oscilator, CCI, SuperTrend) for signal generation
 * Interactive Graphical User Interface (GUI) for seemless strategy control
 
