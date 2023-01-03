@@ -13,6 +13,9 @@ permalink: /
     margin-top:10px;
     margin-bottom:30px;
 }
+img{
+  border-radius: 10px;
+}
 </style>
 
 {% for member in site.data.pi %}
