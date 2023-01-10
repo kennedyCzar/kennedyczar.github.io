@@ -118,8 +118,8 @@ img{
     * Mathematical methods for large dimensions (Introduction to Natural Language Processing) -- Jan. 2022, 2023
 
 * Teaching Assistant, École des Mines de Saint-Étienne (EMSE) 
-    * Deep Learning (introducton to deep learning based on Tensorflow Library) practical class --2021
-    * Numerical Methods (construction and testing of the Finite Difference solver) practcal class --2021, 2022.
+    * Deep Learning (introducton to deep learning based on Tensorflow Library) practical class -- 2021
+    * Numerical Methods (construction and testing of the Finite Difference solver) practcal class -- 2021, 2022, 2023.
 </div>
 
 
