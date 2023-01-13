@@ -114,8 +114,8 @@ img{
 ### Teaching
 
 * Lecturer (Teaching Fellow), École des Mines de Saint-Étienne (EMSE) 
-    * Mathematical methods for large dimensions (Big data clustering) --Jan. 2022, 2023
-    * Mathematical methods for large dimensions (Introduction to Natural Language Processing) -- Jan. 2022, 2023
+    * Mathematical methods for large dimensions (Big data clustering) -- 2022, 2023
+    * Mathematical methods for large dimensions (Introduction to Natural Language Processing) -- 2022, 2023
 
 * Teaching Assistant, École des Mines de Saint-Étienne (EMSE) 
     * Deep Learning (introducton to deep learning based on Tensorflow Library) practical class -- 2021
