@@ -33,7 +33,7 @@ img{
   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
   {% if member.academia %} <a href="{{ member.academia }}" target="_blank"><i class="ai ai-academia-square ai-3x"></i></a> {% endif %}
-  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="ai ai-linkedin-square ai-3x"></i></a> {% endif %}
+  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="ai ai-inspire-square ai-3x"></i></a> {% endif %}
   <h6>{{ member.short_intro }}</h6>
   <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
