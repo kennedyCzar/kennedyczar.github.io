@@ -24,10 +24,10 @@ img{
 {% bibliography --query @misc %}
 </div>
 
-[//]: <><div class="jumbotron">
-[//]: <>### Journal articles
-[//]: <>{% bibliography --query @article %}
-[//]: <></div>
+<div class="jumbotron">
+### Journal articles
+{% bibliography --query @article %}
+</div>
 
 <div class="jumbotron">
 ### Conference proceedings

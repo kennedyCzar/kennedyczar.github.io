@@ -102,6 +102,7 @@ img{
 <div class="jumbotron">
 ### Preprints, Journal and Conference Papers
 {% bibliography --query @misc %}
+{% bibliography --query @article %}
 {% bibliography --query @inproceedings %}
 </div>
 
