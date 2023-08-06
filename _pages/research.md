@@ -148,6 +148,31 @@ Significantly improved results fine-tuning pretrained GPT2 (a decoder only trans
 </div>
 </div>
 
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/fdr_fa.png" width="80%" height="170px" />
+<h4><b>Big GCVAE</b></h4>
+<a href="https://github.com/FA4-0/Big-GCVAE" target="_blank"><button class="btn btn-primary btn-sm">GIT: Big-GCVAE</button></a>
+
+
+<b>Authors:</b>
+<i>Kenneth Ezukwoke, Anis Hoayek, Mireille Batton-Hubert, Xavier Boucher, Pascal Gounet, Jerome Adrian</i>
+
+This work is the convergence resulting from finetuning Large Language Model (LLM) with the Generalized-Controllable Variational AutoEncoder (GCVAE), for improved Failure Analysis Triplet Generation (FATG)
+* Introduces latent space modeling for domain generalization, hence improving inference and generation
+* Finetuned on Generalized-Controllable Variational AutoEncoder loss (GCVAE) exhibits superior performance over stateof-the-arts
+* Demonstrates capacity to generate failure analysis triplets specifically tailored to root cause identification in product packages
+* Self-supervised model that operates with adaptive-controllable hyperparameters, eliminating the need for human intervention in the decision-making process
+
+An improved domain specific (FATG) LLM model that introduces latent modeling for domain generalization and generation.
+</div>
+<div class="col-md-3 col-sm-12">
+  <img src="{{site.url}}{{site.baseurl}}/images/software/lese.png" width="205px" height="200px"/>
+</div>
+</div>
+</div>
+
 
 <div class="jumbotron">
 <div class="row align-items-end">
