@@ -151,7 +151,7 @@ Significantly improved results fine-tuning pretrained GPT2 (a decoder only trans
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/fdr_fa.png" width="80%" height="170px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/biggcvae.png" width="80%" height="170px" />
 <h4><b>Big GCVAE</b></h4>
 <a href="https://github.com/FA4-0/Big-GCVAE" target="_blank"><button class="btn btn-primary btn-sm">GIT: Big-GCVAE</button></a>
 
@@ -168,7 +168,7 @@ This work is the convergence resulting from finetuning Large Language Model (LLM
 An improved domain specific (FATG) LLM model that introduces latent modeling for domain generalization and generation.
 </div>
 <div class="col-md-3 col-sm-12">
-  <img src="{{site.url}}{{site.baseurl}}/images/software/lese.png" width="205px" height="200px"/>
+  <img src="{{site.url}}{{site.baseurl}}/images/software/gcvae_mmd.png" width="205px" height="200px"/>
 </div>
 </div>
 </div>
