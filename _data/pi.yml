@@ -8,7 +8,7 @@
   academia: https://univ-st-etienne.academia.edu/kennethEzukwoke
   linkedin: https://www.linkedin.com/in/kenneth-ezukwoke-4497b1155/
   cv: cv/cv.pdf
-  short_intro: I am a Data Scientist (\textsc{GenAI | LLM | Agent}) at Datategy, where I contribute to the development of the papAI-GenAI product. In this role, I am also actively engaged in computer vision projects, including \textsc{Optical Character Recognition (OCR)} and \textsc{2D-3D Pose Estimation}. <br/>
+  short_intro: I am a Data Scientist (GenAI | LLM | Agent) at Datategy, where I contribute to the development of the papAI-GenAI product. In this role, I am also actively engaged in computer vision projects, including Optical Character Recognition (OCR) and 2D-3D Pose Estimation. <br/>
                This comes after recently obtaining a Ph.D in Applied Mathematics-GenAI and Industrial Engineering from École Nationale Supérieure des Mines de Saint-Étienne 
                (Department of Mathematics and Industrial Engineering, <a href="https://www.mines-stetienne.fr/recherche/centres-et-departements/departement-genie-mathematique-et-industriel/" target="_blank">Institute Henri Fayol</a>),
                working on <i>Artificial Intelligence for Failure Analysis in Semiconductor Industry 4.0<i/>. An industrial collaboration with 
@@ -20,7 +20,8 @@
                 <a href="https://www.ifpenergiesnouvelles.fr/" target="_blank">IFP Energies nouvelles</a>,
                 <a href="https://www.woelfel.de/" target="_blank">Wölfel Engineering GmBH</a> and 
                 <a href="http://www.velsuniv.ac.in/school-computing-sciences.asp" target="_blank">VISTAS</a>, as well as supervising a <a href="https://fecn.unilurio.ac.mz/en/ai-coralreef/" target="_blank">UNESCO AI project</a>.
-              
+                In addition to my current role at Datategy, I serve as a visiting lecturer at EMSE, delivering lectures on Big Data, Natural Language Processing (NLP), and Large Language Models (LLM) to third-year engineering students enrolled in the ICM (Ingénieur Civil des Mines) programme.
+                
   number_educ: 3
   education1: (2023) Ph.D in Applied Maths. / Generative AI, EMSE (thesis with <a href="https://limos.fr/detailperson/10" target="_blank">Mireille Batton-Hubert</a>)
   education2: (2020) M.Sc. Machine Learning and Data Mining, UJM (thesis with <a href="https://perso.univ-st-etienne.fr/habrarda/" target="_blank">Amaury Habrard</a>)
