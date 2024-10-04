@@ -2,7 +2,7 @@
 title: "podcast"
 layout: gridlay
 sitemap: false
-permalink: /paper-podcast/
+permalink: /podcast/
 ---
 
 <style>
