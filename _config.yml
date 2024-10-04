@@ -26,13 +26,14 @@ location: >
   Saint-Étienne, FR
 
 contact: >
-    <a href="mailto:ifeanyi.ezukwoke@emse.fr" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Kenneth via email</a> <br/>
+    <a href="mailto:kenneth.ezukwoke@datategy.net" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Kenneth via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
   - name: publications
   - name: talks
   - name: research
+  - name: Paper podcast
 #  - name: software
 # - name: team
 # - name: teaching
