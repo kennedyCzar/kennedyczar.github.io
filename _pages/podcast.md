@@ -1,5 +1,5 @@
 ---
-title: "Paper podcast"
+title: "podcast"
 layout: gridlay
 sitemap: false
 permalink: /paper-podcast/
