@@ -81,7 +81,7 @@ img{
   <img src="{{ site.url }}{{ site.baseurl }}/images/paper-podcast/UAORLS-FA.png" width="100%" style="max-width:250px"/> 
 </div>
 <div class="col-sm-8 col-xs-12">
-  <h4><b>Intelligent Fault Analysis Decision Flow in Semiconductor Industry 4.0 Using Natural Language Processing with Deep Clustering</b></h4>
+  <h4><b> Unsupervised approach for an optimal representation of the latent space of a failure analysis dataset</b></h4>
   <audio controls>
     <source src="{{ site.url }}{{ site.baseurl }}/paper-podcast/UAORLS-FA.mp3" type="audio/mpeg">
   </audio>
