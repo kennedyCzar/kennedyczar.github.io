@@ -18,7 +18,7 @@ img{
 }
 </style>
 
-### Paper podcast (powered by LLM)
+### Paper podcast (<i>powered by LLM</i>)
 <div class="jumbotron">
 <div class="row">
 <div class="col-sm-4">
