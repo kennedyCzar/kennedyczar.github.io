@@ -101,7 +101,6 @@ scholar:
   join_strings: true
   details_dir: bibliography
   details_layout: bibtemplate.html
-  details_link: Details
   query: "@*"
 
 exclude:

@@ -1,10 +1,31 @@
 ---
 ---
-<div class="bibliography-item">
-  <span class="bibliography-title">{{reference.title}}</span>
-  <span class="bibliography-authors">{{reference.author}}</span>
-  <span class="bibliography-year">({{reference.year}})</span>
-  {% if reference.doi %}
-    <a href="https://doi.org/{{reference.doi}}" class="bibliography-link">DOI</a>
+<div class="text-justify">
+  {% if entry.author contains "Ezukwoke" %}
+    {{reference | replace_first: 'Ezukwoke, K.', '<b>Ezukwoke, K.</b>' | replace_first: 'Ezukwoke, Kenneth', '<b>Ezukwoke, Kenneth</b>'}}
+  {% else %}
+    {{reference}}
   {% endif %}
+
+  {% if entry.doi %}
+    <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary btn-sm">DOI</button></a>
+  {% endif %}
+
+  {% if entry.abstract %}
+    <button class="btn btn-warning btn-sm" onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
+    <div id="abstract{{entry.key}}" style="display: none; background-color: #f5f5f5; padding: 10px; margin-top: 10px; border-radius: 5px;">
+      {{entry.abstract}}
+    </div>
+  {% endif %}
+
+  <script>
+    function toggleAbstract{{entry.key}}() {
+      var x = document.getElementById('abstract{{entry.key}}');
+      if (x.style.display === 'none') {
+        x.style.display = 'block';
+      } else {
+        x.style.display = 'none';
+      }
+    }
+  </script>
 </div>
