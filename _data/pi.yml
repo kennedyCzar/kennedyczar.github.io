@@ -1,0 +1,40 @@
+- name: Kenneth EZUKWOKE, Ph.D
+  photo: Kenneth.jpg
+  info: Data Scientist- GenAI | LLM | Agent, Datategy
+  email: kenneth.ezukwoke@datategy.net
+  github: https://github.com/kennedyCzar
+  researchgate: https://www.researchgate.net/profile/Kenneth-Ezukwoke
+  scholar: https://scholar.google.com/citations?user=AY7eq38AAAAJ&hl=en
+  academia: https://univ-st-etienne.academia.edu/kennethEzukwoke
+  linkedin: https://www.linkedin.com/in/kenneth-ezukwoke-4497b1155/
+  cv: cv/cv.pdf
+  short_intro: I am a Data Scientist (GenAI | LLM | Agent) at Datategy, where I contribute to the development of the papAI-GenAI product. In this role, I am also actively engaged in computer vision projects, including Optical Character Recognition (OCR) and 2D-3D Pose Estimation. <br/>
+               This comes after recently obtaining a Ph.D in Applied Mathematics-GenAI and Industrial Engineering from École Nationale Supérieure des Mines de Saint-Étienne 
+               (Department of Mathematics and Industrial Engineering, <a href="https://www.mines-stetienne.fr/recherche/centres-et-departements/departement-genie-mathematique-et-industriel/" target="_blank">Institute Henri Fayol</a>),
+               working on <i>Artificial Intelligence for Failure Analysis in Semiconductor Industry 4.0<i/>. An industrial collaboration with 
+                <a href="https://www.st.com/" target="_blank">STMicroelectronics</a>, <a href="https://www.bosch.com/" target="_blank">Bosch</a>, and
+                <a href="https://www.infineon.com/" target="_blank">Infineon AG</a> under the <a href="https://penta-eureka.eu/project-overview/penta-call-4/fa4-0/" target="_blank">FA4.0 EURIPIDES<sup>2</sup>-PENTA</a> project.<br/>
+                My Ph.D research focused on improving Generative Artificial intelligence via Probabilistic Graphical Modeling with Causal Large Language Models (LLMs), for decision-making during Failure Root Cause Analysis (FRCA). Advised by <a href="https://limos.fr/detailperson/10" target="_blank">Professor Mireille Batton-Hubert</a>,                 <a href="https://www.emse.fr/~boucher/" target="_blank">Professor Xavier Boucher</a> (both from EMSE) and <a href="https://fr.linkedin.com/in/pascal-gounet-6a6b521" target="_blank">Pascal Gounet</a> and Jerome Adrian (both Physical Failure Analyst Engineers, 
+                <a href="https://www.st.com/" target="_blank">STMicroelectronics</a>). I obtained a dual M.S. degree in <a href="https://mldm.univ-st-etienne.fr/" target="_blank">Machine Learning and Data Mining (MLDM)-Computer science</a> from Université Jean Monnet and a B.S. degree in
+                <a href="http://www.velsuniv.ac.in/school-computing-sciences.asp" target="_blank">Computer Application</a> at Vels University, Chennai, India. My experiences ranges from applied ML (ML from scratch), data analysis to python development working with 
+                <a href="https://www.ifpenergiesnouvelles.fr/" target="_blank">IFP Energies nouvelles</a>,
+                <a href="https://www.woelfel.de/" target="_blank">Wölfel Engineering GmBH</a> and 
+                <a href="http://www.velsuniv.ac.in/school-computing-sciences.asp" target="_blank">VISTAS</a>, as well as supervising a <a href="https://fecn.unilurio.ac.mz/en/ai-coralreef/" target="_blank">UNESCO AI project</a>. <br/>
+                In addition to my current role at Datategy, I serve as a visiting lecturer at both École des Mines, Saint-Étienne, where I deliver lectures on Big Data, Natural Language Processing (NLP) and Large Language Models (LLMs) to third-year engineering and Master's in Mathematics students and Université Évry Paris-Saclay, where I deliver lectures on Data Science to Masters students.
+
+  number_educ: 3
+  education1: (2023) Ph.D in Applied Maths. / Generative AI, EMSE (thesis with <a href="https://limos.fr/detailperson/10" target="_blank">Mireille Batton-Hubert</a>)
+  education2: (2020) M.Sc. Machine Learning and Data Mining, UJM (thesis with <a href="https://perso.univ-st-etienne.fr/habrarda/" target="_blank">Amaury Habrard</a>)
+  education3: (2017) B.Sc. Computer Application, VISTAS (project with <a href="https://vistas.ac.in/faculty-in-school-computing-sciences/" target="_blank">Shanthi C. Raj.</a>)
+  education4: (2017) Ph.D. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign (with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Jon Freund</a>)
+  education5: (2015) M.S. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign
+    <br>(with certificate in <a href="https://cse.illinois.edu/" target="_blank">Computational Science & Engineering</a>)
+  education6: (2013) B.S. Mechanical Engineering, B.S. Mathematics<br>
+    University of Michigan-Dearborn
+  education1short: (2018- ) Senior Postdoc, Caltech 
+  education2short: (2019) Visiting Researcher, MIT 
+  education3short: (2017-8) Postdoc, XPACC 
+  education4short: (2017) Ph.D. TAM, UIUC 
+  education5short: (2015) M.S. TAM/CSE, UIUC
+  education6short: (2013) B.S.+B.S, Michigan
+
