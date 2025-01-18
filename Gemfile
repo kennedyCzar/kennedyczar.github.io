@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem "jekyll", "~> 4.3.2"
 gem "webrick", "~> 1.8"
 gem "kramdown-parser-gfm"
+gem "sassc", "~> 2.4.0"  # Add this line
 
 # Bibliography specific gems
 gem "bibtex-ruby", "~> 6.0.0"
@@ -17,4 +18,5 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-scholar", "~> 7.1.0"
   gem "jekyll-sitemap"
+  gem "jekyll-sass-converter", "~> 2.0"  # Add this line
 end

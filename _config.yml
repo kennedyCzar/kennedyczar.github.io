@@ -38,10 +38,25 @@ nav_pages:
 # - name: team
 # - name: teaching
 
+defaults:
+  - scope:
+      path: "assets/css"
+    values:
+      sass:
+        style: compressed
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+
 include:
+  - _sass
+  - assets
   - .htaccess
   - _pages
-  - assets
 
 # Conversion
 markdown: kramdown
@@ -92,10 +107,10 @@ scholar:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - update_boostrap.sh
-  - switch_theme.sh
-  - tags
-  - Rakefile
-  - vendor
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - .sass-cache
   - .jekyll-cache
