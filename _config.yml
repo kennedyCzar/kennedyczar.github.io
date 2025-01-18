@@ -85,23 +85,30 @@ plugins:
   - jekyll-sitemap
 
 scholar:
-  style: apa
+
+  last_name: EZUKWOKE
+  first_name: [Kenneth]
+
+  style: shb
   locale: en
-  source: ./_bibliography
-  bibliography: references.bib
-  sort_by: year,month
+
+  source: /cv/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  sort_by: year, month
   order: descending
-  group_by: year
-  group_order: descending
-  bibliography_list_tag: div
-  bibliography_item_tag: p
-  bibliography_template: bib
-  repository: papers
+
   replace_strings: true
   join_strings: true
+
   details_dir: bibliography
-  details_layout: bibtemplate.html
+  details_layout: bibtex.html
+  details_link: Details
+
   query: "@*"
+
+  bibliography_list_attributes:
+    reversed: "reversed"
 
 exclude:
   - Gemfile
