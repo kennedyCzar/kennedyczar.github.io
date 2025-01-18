@@ -97,14 +97,14 @@ permalink: /
 
 <div class="jumbotron">
 ### Preprints, Journal and Conference Papers
-{% bibliography --query @misc %}
-{% bibliography --query @inproceedings %}
+{% bibliography --type misc %}
+{% bibliography —-type inproceedings %}
 </div>
 
 <div class="jumbotron">
 ### Regular and invited talks
-{% bibliography --query @incollection[keywords ^= invited] %}
-{% bibliography --query @incollection[keywords != invited] %}
+{% bibliography --type incollection --query @incollection[keywords ~= invited] %}
+{% bibliography --type incollection --query @incollection[keywords != invited] %}
 </div>
 
 <div class="jumbotron">

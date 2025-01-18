@@ -21,21 +21,21 @@ img{
 
 <div class="jumbotron">
 ### Preprints -- under peer-review
-{% bibliography --query @misc %}
+{% bibliography —-type misc %}
 </div>
 
 <div class="jumbotron">
 ### Journal articles
-{% bibliography --query @article %}
+{% bibliography —-type article %}
 </div>
 
 <div class="jumbotron">
 ### Conference proceedings
-{% bibliography --query @inproceedings %}
+{% bibliography —-type inproceedings %}
 </div>
 
 [//]: <><div class="jumbotron">
 [//]: <>### Other publications
-[//]: <>{% bibliography --query @thesis,@report %}
+[//]: <>{% bibliography —-type thesis,report %}
 [//]: <></div>
 

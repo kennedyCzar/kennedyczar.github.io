@@ -101,15 +101,15 @@ img{
 
 <div class="jumbotron">
 ### Preprints, Journal and Conference Papers
-{% bibliography --query @misc %}
-{% bibliography --query @article %}
-{% bibliography --query @inproceedings %}
+{% bibliography —-type misc %}
+{% bibliography —-type article %}
+{% bibliography —-type inproceedings %}
 </div>
 
 <div class="jumbotron">
 ### Regular and Invited talks
-{% bibliography --query @incollection[keywords ^= invited] %}
-{% bibliography --query @incollection[keywords != invited] %}
+{% bibliography --type incollection --query @incollection[keywords ~= invited] %}
+{% bibliography --type incollection --query @incollection[keywords != invited] %}
 </div>
 
 <div class="jumbotron">
