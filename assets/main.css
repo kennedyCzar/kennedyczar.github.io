@@ -1,0 +1,25 @@
+---
+---
+
+@import "bootstrap/bootstrap";
+@import "custom";
+
+// Add any custom styles below
+body {
+  padding-top: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+// Add more custom styles as needed

@@ -1,0 +1,10 @@
+---
+---
+<div class="bibliography-item">
+  <span class="bibliography-title">{{reference.title}}</span>
+  <span class="bibliography-authors">{{reference.author}}</span>
+  <span class="bibliography-year">({{reference.year}})</span>
+  {% if reference.doi %}
+    <a href="https://doi.org/{{reference.doi}}" class="bibliography-link">DOI</a>
+  {% endif %}
+</div>
