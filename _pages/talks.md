@@ -28,11 +28,11 @@ img{
 
 <div class="jumbotron">
 ### Invited talks
-{% bibliography --type incollection --query @incollection[keywords ~= invited] %}
+{% bibliography --query @incollection[keywords ^= invited] %}
 </div>
 
 <div class="jumbotron">
 ### Regular talks
-{% bibliography --type incollection --query @incollection[keywords != invited] %}
+{% bibliography --query @incollection[keywords != invited] %}
 </div>
 
