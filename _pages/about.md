@@ -95,6 +95,18 @@ permalink: /
 {% endif %}
 
 
+{% if site.data.seminars %}
+<div class="jumbotron">
+### Seminars
+<ul>
+{% for article in site.data.seminars %}
+ <li> {{ article.headline }} </li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+
 <div class="jumbotron">
 ### Preprints, Journal and Conference Papers
 {% bibliography --query @misc %}
