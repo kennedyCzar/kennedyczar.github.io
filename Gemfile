@@ -8,7 +8,7 @@ gem "webrick", "~> 1.8"
 gem "jekyll-scholar", "~> 7.1"
 gem "bibtex-ruby", "~> 6.0"
 gem "citeproc-ruby", "~> 1.1"
-gem "csl-styles", "~> 2.0"
+gem "csl-styles", "~> 1.0"
 
 # Jekyll plugins
 group :jekyll_plugins do
